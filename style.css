@@ -31,7 +31,7 @@ header
 header .container
 {
 	display: flex;
-	background-color: #d91b1b;
+	background-color: #ed0b0e;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 15px;
@@ -54,7 +54,7 @@ header .container .logo
 
 header .container nav a
 {
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 	text-decoration: none;
 	margin: 0 15px 0 15px;
 }
@@ -71,15 +71,15 @@ header .container .hamb
 
 footer.seccion
 {
-	background-color: #ff0022;
-	color: rgb(255, 255, 255);
+	background-color: #ed0b0e;
+	color: #ffffff;
 	padding-bottom: 0;
 	padding-top: 15px;
 }
 
 footer .barra-footer
 {
-	background-color: #ff0419;
+	background-color: #ed0b0e;
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -89,11 +89,11 @@ footer .barra-footer
 
 footer p
 {
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 	margin-bottom: 30px;
 }
 
 footer a
 {
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 }
