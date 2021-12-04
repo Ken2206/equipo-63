@@ -87,6 +87,11 @@ footer .barra-footer
 	padding-bottom: 20px;
 }
 
+footer .barra-footer p
+{
+	color: white;
+}
+
 footer p
 {
 	color: #ffffff;
