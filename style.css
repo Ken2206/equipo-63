@@ -92,13 +92,51 @@ footer .barra-footer p
 	color: white;
 }
 
+footer ul
+{
+	color: black;
+	padding-left: 0;
+	list-style: none;
+	margin: 0; 
+}
+
+footer ul li
+{
+	margin-bottom: 10px;
+}
+
+footer .logo-footer
+{
+	width: 100%;
+}
+
+footer img
+{
+	width: 450px;
+	height: 130px;
+}
+
 footer p
 {
-	color: #ffffff;
+	color: black;
 	margin-bottom: 30px;
 }
 
 footer a
 {
-	color: #ffffff;
+	color: black;
+}
+
+footer .redes
+{
+	color: black;
+	font-size: 30px;
+	display: flex;
+	cursor: pointer;
+}
+
+footer .redes a
+{
+	margin: 0 7.5px;
+	color: black;
 }
