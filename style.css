@@ -70,6 +70,16 @@ header .container .hamb
 		display: none;	
 	}
 
+	.columna-25
+	{
+		width: 25%;
+	}
+	
+	.columna-33
+	{
+		width: 33.33%;
+	}
+
 footer.seccion
 {
 	background-color: #ed0b0e;
@@ -80,7 +90,7 @@ footer.seccion
 
 footer .barra-footer
 {
-	background-color: #ed0b0e;
+	background-color: #6d625c;
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -140,4 +150,94 @@ footer .redes a
 {
 	margin: 0 7.5px;
 	color: black;
+}
+
+footer .redes
+{
+	color: black;
+	font-size: 30px;
+	display: flex;
+	cursor: pointer;
+}
+
+footer .redes a
+{
+	margin: 0 7.5px;
+	color: black;
+}
+
+footer
+{
+	text-align: center;
+}
+
+footer .logo-footer
+{
+	width: 50%;
+}
+
+@media(max-width: 767px)
+{
+	body
+	{
+		font-size: 14px;
+	}
+
+	header .container nav
+	{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		padding-left: 10px;
+		padding-right: 0;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		transition: all 0.4s ease;
+		transform: translateX(100%);
+	}
+
+	header .container nav.open
+	{
+		transform: translateX(0);
+		background-color: #d91b54;
+	}
+
+	header .container nav a
+	{
+		font-size: 30px;
+		margin: 15px 0;
+	}
+
+	header .container .hamb
+	{
+		display: block;
+		font-size: 30px;
+		color: white;
+		position: relative;
+	}
+
+	footer
+	{
+		text-align: center;
+	}
+
+	footer .logo-footer
+	{
+		width: 50%;
+	}
+
+	footer .redes
+	{
+		justify-content: center;
+	}
+
+	.container
+	{
+		width: 100%;
+	}
 }
