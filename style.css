@@ -138,6 +138,13 @@ header .contenedor nav a:hover
 	position: relative;
 }
 
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 15px;
+	margin-right: 15px;
+}
 
 header .contenedor .hamb
 	{
@@ -159,7 +166,7 @@ footer.seccion
 	background-color: #ed0b0e;
 	color: #ffffff;
 	padding-bottom: 0;
-	padding-top: 0px;
+	padding-top: 10px;
 }
 
 footer .barra-footer
