@@ -28,7 +28,7 @@ header
 	z-index: 2;*/
 }
 
-header .container
+header .contenedor
 {
 	display: flex;
 	background-color: #ed0b0e;
@@ -40,27 +40,27 @@ header .container
 	height: 80px;
 }
 
-header div .container
+header div .contenedor
 {
 	width: 799px;
 	height: 84px;
 }
 
-header .container .logo
+header .contenedor .logo
 {
 	width: 100px;
 	height: 84px;
 	object-position: center;
 }
 
-header .container nav a
+header .contenedor nav a
 {
 	color: #ffffff;
 	text-decoration: none;
 	margin: 0 15px 0 15px;
 }
 
-header .container nav a:hover
+header .contenedor nav a:hover
 {
 	color: black;
 }
@@ -70,6 +70,7 @@ header .container nav a:hover
 	color: #ffffff;
 	background-color: #410a14;
 	font-size: 16px;
+	border-radius: 5px;
 	font-weight: bold;
 	padding: 4px 4px 4px 4px;
 }
@@ -97,7 +98,7 @@ header .container nav a:hover
 	border: 2px solid #d91b54;
 }
 
-.container
+.contenedor
 {
 	width: 1140px;
 	margin: 0 auto 0 auto;
@@ -277,7 +278,14 @@ footer
 	font-size: 25px;
 }
 
-
+.bd-placeholder-img 
+{
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
 
 @media(max-width: 767px)
 {
@@ -286,7 +294,12 @@ footer
 		font-size: 14px;
 	}
 
-	header .container nav
+	.bd-placeholder-img-lg 
+	{
+		font-size: 3.5rem;
+	}
+
+	header .contenedor nav
 	{
 		position: fixed;
 		width: 100%;
@@ -304,19 +317,19 @@ footer
 		transform: translateX(100%);
 	}
 
-	header .container nav.open
+	header .contenedor nav.open
 	{
 		transform: translateX(0);
 		background-color: #d91b54;
 	}
 
-	header .container nav a
+	header .contenedor nav a
 	{
 		font-size: 30px;
 		margin: 15px 0;
 	}
 
-	header .container .hamb
+	header .contenedor .hamb
 	{
 		display: block;
 		font-size: 30px;
@@ -339,7 +352,7 @@ footer
 		justify-content: center;
 	}
 
-	.container
+	.contenedor
 	{
 		width: 100%;
 	}
