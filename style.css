@@ -90,7 +90,7 @@ footer.seccion
 
 footer .barra-footer
 {
-	background-color: #6d625c;
+	background-color: #252527;
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -123,7 +123,7 @@ footer .logo-footer
 
 footer img
 {
-	width: 450px;
+	width: 500px;
 	height: 130px;
 }
 
@@ -169,11 +169,6 @@ footer .redes a
 footer
 {
 	text-align: center;
-}
-
-footer .logo-footer
-{
-	width: 50%;
 }
 
 @media(max-width: 767px)
